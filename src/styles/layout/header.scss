@@ -1,0 +1,17 @@
+.header {
+  min-width: 320px;
+  height: 10vh;
+  font-family: $font-main;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  .title1 {
+    font-weight: 700;
+    font-size: 28px;
+    color: $colorPrincipal;
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,12 @@
+.form {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+
+  .inputSerieUser {
+    width: 40vw;
+    border: 2px solid $colorPrincipal;
+    border-radius: 5px;
+    padding: 5px;
+  }
+}

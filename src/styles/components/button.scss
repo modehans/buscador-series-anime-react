@@ -1,0 +1,16 @@
+.button {
+  max-width: 120px;
+  border: 2px solid $colorPrincipal;
+  border-radius: 5px;
+  background-color: $colorSecondary;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  transition-delay: 100ms;
+
+  &:hover {
+    background-color: white;
+    color: $colorPrincipal;
+    transform: scale(1.2);
+  }
+}
